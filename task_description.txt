@@ -1,0 +1,14 @@
+At Unite, we get different prices from different suppliers for exactly the same product.
+Supplier management would like to know, based on the provided selection of products and prices, 
+with which suppliers Unite should strengthen its cooperation.
+As a data scientist, it is now your job to evaluate these suppliers in terms of their prices.
+
+The attached file article_prices.csv.gz contains the prices of eight different suppliers for 777 different products. 
+Some suppliers give us a volume discount, that means the price per piece is lower the more you buy.
+
+Example on how to read the file:
+    Product 1 (column A) has the offer 1 (column B) from supplier 1498 (column C): 24.12€ (column E) per piece no matter how much you buy.
+    Product 1 (column A) has the offer 2 (column B) from supplier 1960 (column C): 24.14€ (column E) per piece if you buy one piece (column D), 24.10€ per piece if you buy 5 (column D) or more (that means 12 pieces cost 12 * 24.10€)
+    Product 1 (column A) has the offer 4 (column B) from supplier 2478B (column C): 26.73€ (column E) per piece if you buy 2 pieces (column D), 24.22€ per piece from 3 pieces (column D) up to 8 pieces, 24.21€ from 9 pieces, etc. This means it is impossible to buy only one piece of product 1 from supplier 2478B because the lowest tier is 2.
+
+Which suppliers gives us (in general) the best prices? Explain your choice and how you came to it.
